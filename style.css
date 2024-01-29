@@ -593,18 +593,28 @@ span{
 /* ///////////////////////// HOW WE WORK SECTION STARTS HERE ////////////////// */
 
 .how-section{
-
+    padding: 40px 0;
+    border: 3px solid red;
 }
 
 
 .how-container{
-
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 40px; */
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20 px;
+    /* width: 400px; */
+}
+
+.right{
+    width: 472.71px;
+    height: 200.37px;
+    border: 3px solid red;
 }
 
 .left h4{
@@ -623,6 +633,7 @@ span{
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+    padding: 10px 0;
 }
 
 .left button {
@@ -631,4 +642,325 @@ span{
     align-items: flex-start;
     gap: 10px;
 }
+
+.get-btn{
+    display: flex;
+    padding: 18px 21px;
+    align-items: flex-start;
+    gap: 10px;
+    width: 164px;
+    border: 0;
+    border-radius: 4px;
+    background: #796EFF;
+    transition: 200ms;
+
+}
+
+.get-btn:hover{
+    background: #FFF;
+    border: 1.5px solid #796EFF;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.get-btn:hover a{
+    color: #796EFF;
+    transition: 200ms;
+}
+
+.get-btn a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    transition: 200ms;       
+}
 /* ///////////////////////// HOW WE WORK SECTION ENDS HERE ////////////////// */
+
+
+
+/* //////////////////////// WHY SECTION STARTS HERE //////////////////////////////// */
+.why-section{
+    padding: 4rem 0;
+}
+.why-section h4{
+    color: #35414B;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+}
+
+
+.why-p {
+    padding: 15px;
+    color: #4E5A65;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+
+.why-container{
+    display: flex;
+    border: 3px solid aqua;
+    justify-content: space-evenly;
+}
+
+.why{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 3px solid green; */
+    position: relative;
+    
+}
+.why::before{
+    width: 120px;
+    content: "";
+    /* border: 3px solid greenyellow; */
+    left: -150px;
+    position: absolute;
+    top: -10px;
+    /* width: 264px; */
+    height: 4px;
+    transition: 300ms;
+    background: #35414B;
+    border-radius: 5px;
+    opacity: 0;
+
+}
+
+.why:hover::before{
+    left: 30%;
+    opacity: 10;
+}
+
+.why-img{
+    width: 48px;
+    height: 48px;
+    border: 3px solid  red;
+    background-position: center;
+    background-size: contain;
+    background: url(./assets/Ellipse\ 5.png);
+    
+}
+
+.why-text{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.why-text p{
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.why-text h5{
+    color: #4E5A65;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+}
+
+
+.get-house{
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.get-container{
+    display: inline-flex;
+    padding: 64px 80px;
+    align-items: center;
+    gap: 143px;
+    border-radius: 16px;
+    background: #796EFF;
+} 
+
+.get-container p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+}
+
+.get{
+    width: 185px;
+    border: 3px solid red;
+    height: 53px ;
+
+
+    
+}
+
+.get-links{
+    display: flex;
+    gap: 10px;
+}
+
+/* //////////////////////// WHY SECTION ENDS HERE //////////////////////////////// */
+
+
+/* ///////////// FOOTER SECTION STARTS HERE ////////////////// */
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1D2830;
+    height: 300px;  
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links h4{
+    color: #FFF;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+
+.footer-links ul li{
+    padding: 10px 0;
+    /* border: 3px solid red; */
+    position: relative;
+    transition: 300ms;
+}
+
+.footer-download{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links ul li::before{
+    height: 3px;
+    background: #4E5A65;
+    width: 100%;
+    content: "";
+    position: absolute;
+    /* border: 3px solid red; */
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 300ms;
+
+
+    /* border: 3px solid red; */
+}
+
+.footer-links ul li::before{
+    left: -150px;
+}
+
+
+
+.footer-links ul li::after{
+    width: 100px;
+    content: "";
+    bottom: 0;
+    position: absolute;
+    height: 3px;
+    background: #4E5A65;
+    width: 100%;
+    left: -150px;
+    transition: 300ms;
+    opacity:0 ;
+
+    /* border: 3px solid red; */
+}
+
+.footer-links ul li:hover::before,::after{
+    left: 0;
+    opacity: 10;
+}
+.footer-links ul li:hover::after{
+    left: 0;
+    opacity: 10;
+}
+
+
+
+
+.footer-links li a{
+   
+    text-decoration: none;
+    color: #FFF;
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    opacity: 5;
+    transition: 300ms;
+}
+
+.social{
+    width: 25.067px;
+    height: 25.067px;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-contact{
+    display: flex;
+    
+    /* border: 3px solid greenyellow; */
+    justify-content: space-between;
+    padding: 0 160px;
+    
+}
+.footer-contact p{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+}
+
+.footer-contact-container{
+    padding: 1rem 0;
+    background: #1D2830; 
+    border-top: 1px solid #35414B;   
+}
+
+.social-container{
+    display: flex;
+    gap: 32px;
+    
+}
+
+
+/* ///////////// FOOTER SECTION ENDS HERE ////////////////// */
