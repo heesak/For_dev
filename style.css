@@ -266,6 +266,7 @@ html{
 /* ////////////////  OVER-VIEW SECTION STARTS HERE ///////////////////////// */
 .overview-section{
     padding-bottom: 10rem;
+    background: #FFF;
 }
 .overview-container{
     display: flex;
