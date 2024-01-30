@@ -18,7 +18,7 @@ html{
     }
 
     .header-links{
-        border: 3px solid red;
+        /* border: 3px solid red; */
         display: flex;
         justify-content: space-between;
         /* gap: 223px; */
@@ -27,7 +27,7 @@ html{
     }
 
     .logo{
-        border: 3px solid greenyellow;
+        /* border: 3px solid greenyellow; */
         transition: 200ms;
         
     }
@@ -65,7 +65,7 @@ html{
         display: flex;
         align-items: center;
         gap: 16px;
-        border: 3px solid green;
+        /* border: 3px solid green; */
         transition: 200ms;
         
     }
@@ -148,7 +148,7 @@ html{
     padding-top: 30px;
     padding-top: 30px; */
     /* border-radius-: 3128px; */
-    border: 1px solid #F0EBFA;
+    /* border: 1px solid #F0EBFA; */
     background: #FBFAFE;
 }
 
@@ -244,7 +244,7 @@ html{
         align-items: flex-start;
         gap: 10px;
         border-radius: 0px 4px 4px 0px;
-        border: 1px solid #794CFF;
+        /* border: 1px solid #794CFF; */
         background: #794CFF;
     }
 
@@ -304,7 +304,7 @@ span{
 }
 
 .sponsor-house{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding: 20px 0;
     width: 920px;
     display: flex;
@@ -337,7 +337,7 @@ span{
 .timeline-container{
     /* width: 1505px; */
     height: 640px;
-    flex-shrink: 0;
+    
     border: 1px solid #F0EBFA;
     background: #FBFAFE;
     display: flex;
@@ -348,7 +348,7 @@ span{
 .timeline1{
     width: 394px;
     height: 467px;
-    flex-shrink: 0;
+    
     border-radius: 4px;
     border: 1px solid #E1E5EA;
     background: #FFF;
@@ -409,8 +409,8 @@ span{
 
 
 .timeline3{
-  border: 3px solid red;
-  height: 560px;
+  /* border: 3px solid red; */
+  /* height: 560px; */
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -468,7 +468,7 @@ span{
     border-radius: 50%;
     background: #FDF8E8;
     flex-shrink: 0;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -595,7 +595,7 @@ span{
 
 .how-section{
     padding: 40px 0;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 
@@ -615,7 +615,10 @@ span{
 .right{
     width: 472.71px;
     height: 200.37px;
-    border: 3px solid red;
+    /* border: 3px solid rgb(0, 255, 136); */
+    background: url(./assets/h\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .left h4{
@@ -712,7 +715,7 @@ span{
 
 .why-container{
     display: flex;
-    border: 3px solid aqua;
+    /* border: 3px solid aqua; */
     justify-content: space-evenly;
 }
 
@@ -748,7 +751,7 @@ span{
 .why-img{
     width: 48px;
     height: 48px;
-    border: 3px solid  red;
+    /* border: 3px solid  red; */
     background-position: center;
     background-size: contain;
     background: url(./assets/Ellipse\ 5.png);
@@ -806,7 +809,7 @@ span{
 
 .get{
     width: 185px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     height: 53px ;
 
 
@@ -926,7 +929,7 @@ footer{
 .social{
     width: 25.067px;
     height: 25.067px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
