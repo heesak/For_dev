@@ -282,6 +282,12 @@
         display: none;
     }
 
+    .mobile-links{
+        display: flex;
+    }
+
+    
+
 
     .first-btn{
         display: none;
