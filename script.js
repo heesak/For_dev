@@ -1,5 +1,5 @@
-var footer_links = document.querySelector('.fa')
+ var hh = document.querySelector('.bars') 
 
-function addclass(){
-    footer_links.classList.toggle("show")
-}
+ function addclass(){
+    hh.classList.toggle("show")
+ }
