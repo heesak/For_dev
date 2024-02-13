@@ -53,7 +53,7 @@ html{
         transition: 200ms;
     }
     .header-ul{
-        border: 3px solid aqua;
+        /* border: 3px solid aqua; */
         display: flex;
         gap: 44px;
         list-style: none;
@@ -980,7 +980,7 @@ footer{
     /* height: ; */
     width: 100%;
     padding: 15px 50px;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: none;
     justify-content: space-between;
     align-items: center;
@@ -1081,7 +1081,7 @@ footer{
     }
 
     .bar1 .show{
-        border: 3px solid greenyellow;
+        /* border: 3px solid greenyellow; */
     }
 
 
@@ -1093,10 +1093,12 @@ footer{
         flex-direction: column;
         align-items: center;
         width: 100vw;
-        border: 3px solid yellow;
+        /* border: 3px solid yellow; */
         /* height: 50vh; */
         padding: 10px 0;
         background: #1D2830;
+        transition: 200ms;
+        transform: rotateY('90deg');
 
     }
 
@@ -1110,5 +1112,8 @@ footer{
     font-weight: 400;
     line-height: 14px; /* 100% */
         /* border: 3px solid greenyellow; */
+       
     }
+
+  
 /* ///////////////////////////////// MOBILE LINKS //////////////////////// */

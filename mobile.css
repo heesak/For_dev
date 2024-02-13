@@ -162,7 +162,7 @@
     }
 
     .footer-links{
-        border: 3px solid aqua;
+        /* border: 3px solid aqua; */
     }
 
     .social-container{
@@ -270,7 +270,15 @@
         font-size: 24px;
         font-style: normal;
         font-weight: 600;
+      
         line-height: 32px; /* 133.333% */
+    }
+
+    .hey.mobile-ul{
+        display: flex;
+        /* translate: 20px; */
+        transform: rotateY('0deg');
+        transition: 200ms;
     }
 }
 /* //////// */
