@@ -9,6 +9,13 @@ html{
     scroll-behavior: smooth;
 }
 
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #eee;
+    border: 0;
+}
+
 /* ///////////////////header link starts here///////////////////// */
     
     .header-container{
@@ -1084,6 +1091,10 @@ footer{
         /* border: 3px solid greenyellow; */
     }
 
+    #company-links-button{
+        padding: .25rem;
+
+    }
 
     .mobile-ul{
         position: fixed;
