@@ -623,7 +623,8 @@ span{
     width: 472.71px;
     height: 200.37px;
     /* border: 3px solid rgb(0, 255, 136); */
-    background: url(./assets/h\ logo.png);
+    /* background: url(./assets/h\ logo.png); */ 
+    background: url(./assets/tech\ mg.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -839,7 +840,9 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     background: #1D2830;
-    height: 300px;  
+    height: 300px; 
+    overflow: hidden; 
+    padding: 2rem 0;
 }
 
 .footer-links ul {
@@ -916,6 +919,10 @@ footer{
     opacity: 10;
 }
 
+
+.footer-links h4{
+    display: none;
+}
 
 
 

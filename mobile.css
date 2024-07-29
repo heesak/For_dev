@@ -1,4 +1,11 @@
 @media (max-width:1000px) {
+    .footer-links h4{
+        display: block;
+    }
+
+    .hero-container{
+        padding-top: 5rem;
+    }
 
     .header-ul{
         padding-left: 20px;
